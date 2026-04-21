@@ -16,7 +16,7 @@ class AppleTree extends tree
 {
     void fruit()
     {
-        System.out.println("The tree is giving apples");
+        System.out.println("The tree is giving appleeeees");
     }
 }
 public class PlantHierarchy {
