@@ -7,11 +7,9 @@ pipeline {
                 dir('PlantHierarchy/src') { 
                     echo 'Moved into the project folder...'
                     
-                    // Compile Step
                     echo 'Compiling...'
                     sh 'javac PlantHierarchy.java' 
                     
-                    // Execution Step
                     echo 'Executing...'
                     sh 'java PlantHierarchy'
                 }
